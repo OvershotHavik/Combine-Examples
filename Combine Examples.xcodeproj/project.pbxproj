@@ -14,6 +14,7 @@
 		B374E8042788E83E00422E9C /* Combine_ExamplesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B374E8032788E83E00422E9C /* Combine_ExamplesTests.swift */; };
 		B374E80E2788E83E00422E9C /* Combine_ExamplesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B374E80D2788E83E00422E9C /* Combine_ExamplesUITests.swift */; };
 		B374E8102788E83E00422E9C /* Combine_ExamplesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B374E80F2788E83E00422E9C /* Combine_ExamplesUITestsLaunchTests.swift */; };
+		B374E81E2788EADA00422E9C /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B374E81D2788EADA00422E9C /* HeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		B374E8092788E83E00422E9C /* Combine ExamplesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Combine ExamplesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B374E80D2788E83E00422E9C /* Combine_ExamplesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Combine_ExamplesUITests.swift; sourceTree = "<group>"; };
 		B374E80F2788E83E00422E9C /* Combine_ExamplesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Combine_ExamplesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B374E81D2788EADA00422E9C /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				B374E7F22788E83A00422E9C /* Combine_ExamplesApp.swift */,
+				B374E81C2788EAC700422E9C /* Views */,
 				B374E7F42788E83A00422E9C /* ContentView.swift */,
 				B374E7F62788E83D00422E9C /* Assets.xcassets */,
 				B374E7F82788E83D00422E9C /* Preview Content */,
@@ -125,6 +128,14 @@
 				B374E80F2788E83E00422E9C /* Combine_ExamplesUITestsLaunchTests.swift */,
 			);
 			path = "Combine ExamplesUITests";
+			sourceTree = "<group>";
+		};
+		B374E81C2788EAC700422E9C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B374E81D2788EADA00422E9C /* HeaderView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B374E7F52788E83A00422E9C /* ContentView.swift in Sources */,
+				B374E81E2788EADA00422E9C /* HeaderView.swift in Sources */,
 				B374E7F32788E83A00422E9C /* Combine_ExamplesApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
