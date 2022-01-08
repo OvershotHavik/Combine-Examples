@@ -21,6 +21,7 @@
 		B374E8272789F5C800422E9C /* CancellingMultiplePipelines.swift in Sources */ = {isa = PBXBuildFile; fileRef = B374E8262789F5C800422E9C /* CancellingMultiplePipelines.swift */; };
 		B374E82A278A139B00422E9C /* PublishedIntro.swift in Sources */ = {isa = PBXBuildFile; fileRef = B374E829278A139B00422E9C /* PublishedIntro.swift */; };
 		B374E82C278A179800422E9C /* CurrentValueSubject.swift in Sources */ = {isa = PBXBuildFile; fileRef = B374E82B278A179800422E9C /* CurrentValueSubject.swift */; };
+		B3B6CB3F278A266C00D3E5C5 /* EmptyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B6CB3E278A266C00D3E5C5 /* EmptyView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		B374E8262789F5C800422E9C /* CancellingMultiplePipelines.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CancellingMultiplePipelines.swift; sourceTree = "<group>"; };
 		B374E829278A139B00422E9C /* PublishedIntro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublishedIntro.swift; sourceTree = "<group>"; };
 		B374E82B278A179800422E9C /* CurrentValueSubject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentValueSubject.swift; sourceTree = "<group>"; };
+		B3B6CB3E278A266C00D3E5C5 /* EmptyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -168,6 +170,7 @@
 			children = (
 				B374E829278A139B00422E9C /* PublishedIntro.swift */,
 				B374E82B278A179800422E9C /* CurrentValueSubject.swift */,
+				B3B6CB3E278A266C00D3E5C5 /* EmptyView.swift */,
 			);
 			path = Publishers;
 			sourceTree = "<group>";
@@ -309,6 +312,7 @@
 				B374E82C278A179800422E9C /* CurrentValueSubject.swift in Sources */,
 				B374E81E2788EADA00422E9C /* HeaderView.swift in Sources */,
 				B374E7F32788E83A00422E9C /* Combine_ExamplesApp.swift in Sources */,
+				B3B6CB3F278A266C00D3E5C5 /* EmptyView.swift in Sources */,
 				B374E8272789F5C800422E9C /* CancellingMultiplePipelines.swift in Sources */,
 				B374E8252789EFFF00422E9C /* LongRunningProcess.swift in Sources */,
 			);

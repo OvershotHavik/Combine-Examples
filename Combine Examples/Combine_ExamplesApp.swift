@@ -11,7 +11,7 @@ import SwiftUI
 struct Combine_ExamplesApp: App {
     var body: some Scene {
         WindowGroup {
-            CurrentValueSubjectViewCompare()
+            EmptyView()
         }
     }
 }
