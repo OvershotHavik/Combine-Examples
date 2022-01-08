@@ -17,6 +17,7 @@
 		B374E81E2788EADA00422E9C /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B374E81D2788EADA00422E9C /* HeaderView.swift */; };
 		B374E8212789E01100422E9C /* FirstPipeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = B374E8202789E01100422E9C /* FirstPipeline.swift */; };
 		B374E8232789EA9700422E9C /* FirstPipelineUsingSink.swift in Sources */ = {isa = PBXBuildFile; fileRef = B374E8222789EA9700422E9C /* FirstPipelineUsingSink.swift */; };
+		B374E8252789EFFF00422E9C /* LongRunningProcess.swift in Sources */ = {isa = PBXBuildFile; fileRef = B374E8242789EFFF00422E9C /* LongRunningProcess.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		B374E81D2788EADA00422E9C /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		B374E8202789E01100422E9C /* FirstPipeline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstPipeline.swift; sourceTree = "<group>"; };
 		B374E8222789EA9700422E9C /* FirstPipelineUsingSink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstPipelineUsingSink.swift; sourceTree = "<group>"; };
+		B374E8242789EFFF00422E9C /* LongRunningProcess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongRunningProcess.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +150,7 @@
 			children = (
 				B374E8202789E01100422E9C /* FirstPipeline.swift */,
 				B374E8222789EA9700422E9C /* FirstPipelineUsingSink.swift */,
+				B374E8242789EFFF00422E9C /* LongRunningProcess.swift */,
 			);
 			path = Examples;
 			sourceTree = "<group>";
@@ -287,6 +290,7 @@
 				B374E7F52788E83A00422E9C /* ContentView.swift in Sources */,
 				B374E81E2788EADA00422E9C /* HeaderView.swift in Sources */,
 				B374E7F32788E83A00422E9C /* Combine_ExamplesApp.swift in Sources */,
+				B374E8252789EFFF00422E9C /* LongRunningProcess.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
