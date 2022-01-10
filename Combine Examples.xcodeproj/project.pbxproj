@@ -22,6 +22,7 @@
 		B374E82A278A139B00422E9C /* PublishedIntro.swift in Sources */ = {isa = PBXBuildFile; fileRef = B374E829278A139B00422E9C /* PublishedIntro.swift */; };
 		B374E82C278A179800422E9C /* CurrentValueSubject.swift in Sources */ = {isa = PBXBuildFile; fileRef = B374E82B278A179800422E9C /* CurrentValueSubject.swift */; };
 		B3B6CB3F278A266C00D3E5C5 /* EmptyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B6CB3E278A266C00D3E5C5 /* EmptyView.swift */; };
+		B3B6CB41278A2FCB00D3E5C5 /* FailExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B6CB40278A2FCB00D3E5C5 /* FailExample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,7 @@
 		B374E829278A139B00422E9C /* PublishedIntro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublishedIntro.swift; sourceTree = "<group>"; };
 		B374E82B278A179800422E9C /* CurrentValueSubject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentValueSubject.swift; sourceTree = "<group>"; };
 		B3B6CB3E278A266C00D3E5C5 /* EmptyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyView.swift; sourceTree = "<group>"; };
+		B3B6CB40278A2FCB00D3E5C5 /* FailExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FailExample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,6 +173,7 @@
 				B374E829278A139B00422E9C /* PublishedIntro.swift */,
 				B374E82B278A179800422E9C /* CurrentValueSubject.swift */,
 				B3B6CB3E278A266C00D3E5C5 /* EmptyView.swift */,
+				B3B6CB40278A2FCB00D3E5C5 /* FailExample.swift */,
 			);
 			path = Publishers;
 			sourceTree = "<group>";
@@ -305,6 +308,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3B6CB41278A2FCB00D3E5C5 /* FailExample.swift in Sources */,
 				B374E8212789E01100422E9C /* FirstPipeline.swift in Sources */,
 				B374E8232789EA9700422E9C /* FirstPipelineUsingSink.swift in Sources */,
 				B374E7F52788E83A00422E9C /* ContentView.swift in Sources */,
