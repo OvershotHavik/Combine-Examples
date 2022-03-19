@@ -27,6 +27,7 @@
 		B3ABC84927E6539D001ECFE8 /* FutureRunMultiple.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3ABC84827E6539D001ECFE8 /* FutureRunMultiple.swift */; };
 		B3ABC84C27E656D6001ECFE8 /* JustView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3ABC84B27E656D6001ECFE8 /* JustView.swift */; };
 		B3ABC84E27E659A7001ECFE8 /* PassthroughSubjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3ABC84D27E659A7001ECFE8 /* PassthroughSubjectView.swift */; };
+		B3ABC85027E65EF4001ECFE8 /* SequenceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3ABC84F27E65EF4001ECFE8 /* SequenceView.swift */; };
 		B3B6CB3F278A266C00D3E5C5 /* EmptyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B6CB3E278A266C00D3E5C5 /* EmptyView.swift */; };
 		B3B6CB41278A2FCB00D3E5C5 /* FailExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B6CB40278A2FCB00D3E5C5 /* FailExample.swift */; };
 /* End PBXBuildFile section */
@@ -72,6 +73,7 @@
 		B3ABC84827E6539D001ECFE8 /* FutureRunMultiple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FutureRunMultiple.swift; sourceTree = "<group>"; };
 		B3ABC84B27E656D6001ECFE8 /* JustView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JustView.swift; sourceTree = "<group>"; };
 		B3ABC84D27E659A7001ECFE8 /* PassthroughSubjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassthroughSubjectView.swift; sourceTree = "<group>"; };
+		B3ABC84F27E65EF4001ECFE8 /* SequenceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SequenceView.swift; sourceTree = "<group>"; };
 		B3B6CB3E278A266C00D3E5C5 /* EmptyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyView.swift; sourceTree = "<group>"; };
 		B3B6CB40278A2FCB00D3E5C5 /* FailExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FailExample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -189,6 +191,7 @@
 				B3B6CB40278A2FCB00D3E5C5 /* FailExample.swift */,
 				B3ABC84B27E656D6001ECFE8 /* JustView.swift */,
 				B3ABC84D27E659A7001ECFE8 /* PassthroughSubjectView.swift */,
+				B3ABC84F27E65EF4001ECFE8 /* SequenceView.swift */,
 			);
 			path = Publishers;
 			sourceTree = "<group>";
@@ -345,6 +348,7 @@
 				B3ABC84327E64BA3001ECFE8 /* FutureIntro.swift in Sources */,
 				B3ABC84927E6539D001ECFE8 /* FutureRunMultiple.swift in Sources */,
 				B3ABC84C27E656D6001ECFE8 /* JustView.swift in Sources */,
+				B3ABC85027E65EF4001ECFE8 /* SequenceView.swift in Sources */,
 				B3ABC84E27E659A7001ECFE8 /* PassthroughSubjectView.swift in Sources */,
 				B374E81E2788EADA00422E9C /* HeaderView.swift in Sources */,
 				B374E7F32788E83A00422E9C /* Combine_ExamplesApp.swift in Sources */,
