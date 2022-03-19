@@ -21,6 +21,10 @@
 		B374E8272789F5C800422E9C /* CancellingMultiplePipelines.swift in Sources */ = {isa = PBXBuildFile; fileRef = B374E8262789F5C800422E9C /* CancellingMultiplePipelines.swift */; };
 		B374E82A278A139B00422E9C /* PublishedIntro.swift in Sources */ = {isa = PBXBuildFile; fileRef = B374E829278A139B00422E9C /* PublishedIntro.swift */; };
 		B374E82C278A179800422E9C /* CurrentValueSubject.swift in Sources */ = {isa = PBXBuildFile; fileRef = B374E82B278A179800422E9C /* CurrentValueSubject.swift */; };
+		B3ABC84327E64BA3001ECFE8 /* FutureIntro.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3ABC84227E64BA3001ECFE8 /* FutureIntro.swift */; };
+		B3ABC84527E64FD8001ECFE8 /* FutureImmediateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3ABC84427E64FD8001ECFE8 /* FutureImmediateView.swift */; };
+		B3ABC84727E651CA001ECFE8 /* FutureOnlyRunOnce.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3ABC84627E651CA001ECFE8 /* FutureOnlyRunOnce.swift */; };
+		B3ABC84927E6539D001ECFE8 /* FutureRunMultiple.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3ABC84827E6539D001ECFE8 /* FutureRunMultiple.swift */; };
 		B3B6CB3F278A266C00D3E5C5 /* EmptyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B6CB3E278A266C00D3E5C5 /* EmptyView.swift */; };
 		B3B6CB41278A2FCB00D3E5C5 /* FailExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B6CB40278A2FCB00D3E5C5 /* FailExample.swift */; };
 /* End PBXBuildFile section */
@@ -60,6 +64,10 @@
 		B374E8262789F5C800422E9C /* CancellingMultiplePipelines.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CancellingMultiplePipelines.swift; sourceTree = "<group>"; };
 		B374E829278A139B00422E9C /* PublishedIntro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublishedIntro.swift; sourceTree = "<group>"; };
 		B374E82B278A179800422E9C /* CurrentValueSubject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentValueSubject.swift; sourceTree = "<group>"; };
+		B3ABC84227E64BA3001ECFE8 /* FutureIntro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FutureIntro.swift; sourceTree = "<group>"; };
+		B3ABC84427E64FD8001ECFE8 /* FutureImmediateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FutureImmediateView.swift; sourceTree = "<group>"; };
+		B3ABC84627E651CA001ECFE8 /* FutureOnlyRunOnce.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FutureOnlyRunOnce.swift; sourceTree = "<group>"; };
+		B3ABC84827E6539D001ECFE8 /* FutureRunMultiple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FutureRunMultiple.swift; sourceTree = "<group>"; };
 		B3B6CB3E278A266C00D3E5C5 /* EmptyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyView.swift; sourceTree = "<group>"; };
 		B3B6CB40278A2FCB00D3E5C5 /* FailExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FailExample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -170,12 +178,24 @@
 		B374E828278A134600422E9C /* Publishers */ = {
 			isa = PBXGroup;
 			children = (
+				B3ABC84A27E65634001ECFE8 /* Futures */,
 				B374E829278A139B00422E9C /* PublishedIntro.swift */,
 				B374E82B278A179800422E9C /* CurrentValueSubject.swift */,
 				B3B6CB3E278A266C00D3E5C5 /* EmptyView.swift */,
 				B3B6CB40278A2FCB00D3E5C5 /* FailExample.swift */,
 			);
 			path = Publishers;
+			sourceTree = "<group>";
+		};
+		B3ABC84A27E65634001ECFE8 /* Futures */ = {
+			isa = PBXGroup;
+			children = (
+				B3ABC84227E64BA3001ECFE8 /* FutureIntro.swift */,
+				B3ABC84427E64FD8001ECFE8 /* FutureImmediateView.swift */,
+				B3ABC84627E651CA001ECFE8 /* FutureOnlyRunOnce.swift */,
+				B3ABC84827E6539D001ECFE8 /* FutureRunMultiple.swift */,
+			);
+			path = Futures;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -310,10 +330,14 @@
 			files = (
 				B3B6CB41278A2FCB00D3E5C5 /* FailExample.swift in Sources */,
 				B374E8212789E01100422E9C /* FirstPipeline.swift in Sources */,
+				B3ABC84527E64FD8001ECFE8 /* FutureImmediateView.swift in Sources */,
+				B3ABC84727E651CA001ECFE8 /* FutureOnlyRunOnce.swift in Sources */,
 				B374E8232789EA9700422E9C /* FirstPipelineUsingSink.swift in Sources */,
 				B374E7F52788E83A00422E9C /* ContentView.swift in Sources */,
 				B374E82A278A139B00422E9C /* PublishedIntro.swift in Sources */,
 				B374E82C278A179800422E9C /* CurrentValueSubject.swift in Sources */,
+				B3ABC84327E64BA3001ECFE8 /* FutureIntro.swift in Sources */,
+				B3ABC84927E6539D001ECFE8 /* FutureRunMultiple.swift in Sources */,
 				B374E81E2788EADA00422E9C /* HeaderView.swift in Sources */,
 				B374E7F32788E83A00422E9C /* Combine_ExamplesApp.swift in Sources */,
 				B3B6CB3F278A266C00D3E5C5 /* EmptyView.swift in Sources */,
