@@ -30,6 +30,10 @@
 		B3ABC85027E65EF4001ECFE8 /* SequenceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3ABC84F27E65EF4001ECFE8 /* SequenceView.swift */; };
 		B3ABC85227E662B3001ECFE8 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3ABC85127E662B3001ECFE8 /* TimerView.swift */; };
 		B3ABC85527E665C1001ECFE8 /* TimerConnect.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3ABC85427E665C1001ECFE8 /* TimerConnect.swift */; };
+		B3ABC85827E668E2001ECFE8 /* URLDataIntro.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3ABC85727E668E2001ECFE8 /* URLDataIntro.swift */; };
+		B3ABC85A27E66DEF001ECFE8 /* URLSessionWithErrorHandling.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3ABC85927E66DEF001ECFE8 /* URLSessionWithErrorHandling.swift */; };
+		B3ABC85C27E670D9001ECFE8 /* URLSessionImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3ABC85B27E670D9001ECFE8 /* URLSessionImage.swift */; };
+		B3ABC85E27E6738B001ECFE8 /* URLReplaceError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3ABC85D27E6738B001ECFE8 /* URLReplaceError.swift */; };
 		B3B6CB3F278A266C00D3E5C5 /* EmptyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B6CB3E278A266C00D3E5C5 /* EmptyView.swift */; };
 		B3B6CB41278A2FCB00D3E5C5 /* FailExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B6CB40278A2FCB00D3E5C5 /* FailExample.swift */; };
 /* End PBXBuildFile section */
@@ -78,6 +82,10 @@
 		B3ABC84F27E65EF4001ECFE8 /* SequenceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SequenceView.swift; sourceTree = "<group>"; };
 		B3ABC85127E662B3001ECFE8 /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
 		B3ABC85427E665C1001ECFE8 /* TimerConnect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerConnect.swift; sourceTree = "<group>"; };
+		B3ABC85727E668E2001ECFE8 /* URLDataIntro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLDataIntro.swift; sourceTree = "<group>"; };
+		B3ABC85927E66DEF001ECFE8 /* URLSessionWithErrorHandling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionWithErrorHandling.swift; sourceTree = "<group>"; };
+		B3ABC85B27E670D9001ECFE8 /* URLSessionImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionImage.swift; sourceTree = "<group>"; };
+		B3ABC85D27E6738B001ECFE8 /* URLReplaceError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLReplaceError.swift; sourceTree = "<group>"; };
 		B3B6CB3E278A266C00D3E5C5 /* EmptyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyView.swift; sourceTree = "<group>"; };
 		B3B6CB40278A2FCB00D3E5C5 /* FailExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FailExample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -188,6 +196,7 @@
 		B374E828278A134600422E9C /* Publishers */ = {
 			isa = PBXGroup;
 			children = (
+				B3ABC85627E667D0001ECFE8 /* URL Sessions */,
 				B3ABC85327E665AA001ECFE8 /* Timer */,
 				B3ABC84A27E65634001ECFE8 /* Futures */,
 				B374E829278A139B00422E9C /* PublishedIntro.swift */,
@@ -219,6 +228,17 @@
 				B3ABC85427E665C1001ECFE8 /* TimerConnect.swift */,
 			);
 			path = Timer;
+			sourceTree = "<group>";
+		};
+		B3ABC85627E667D0001ECFE8 /* URL Sessions */ = {
+			isa = PBXGroup;
+			children = (
+				B3ABC85727E668E2001ECFE8 /* URLDataIntro.swift */,
+				B3ABC85927E66DEF001ECFE8 /* URLSessionWithErrorHandling.swift */,
+				B3ABC85B27E670D9001ECFE8 /* URLSessionImage.swift */,
+				B3ABC85D27E6738B001ECFE8 /* URLReplaceError.swift */,
+			);
+			path = "URL Sessions";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -351,6 +371,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3ABC85A27E66DEF001ECFE8 /* URLSessionWithErrorHandling.swift in Sources */,
 				B3B6CB41278A2FCB00D3E5C5 /* FailExample.swift in Sources */,
 				B374E8212789E01100422E9C /* FirstPipeline.swift in Sources */,
 				B3ABC84527E64FD8001ECFE8 /* FutureImmediateView.swift in Sources */,
@@ -359,15 +380,18 @@
 				B374E7F52788E83A00422E9C /* ContentView.swift in Sources */,
 				B374E82A278A139B00422E9C /* PublishedIntro.swift in Sources */,
 				B374E82C278A179800422E9C /* CurrentValueSubject.swift in Sources */,
+				B3ABC85E27E6738B001ECFE8 /* URLReplaceError.swift in Sources */,
 				B3ABC85527E665C1001ECFE8 /* TimerConnect.swift in Sources */,
 				B3ABC84327E64BA3001ECFE8 /* FutureIntro.swift in Sources */,
 				B3ABC84927E6539D001ECFE8 /* FutureRunMultiple.swift in Sources */,
 				B3ABC85227E662B3001ECFE8 /* TimerView.swift in Sources */,
 				B3ABC84C27E656D6001ECFE8 /* JustView.swift in Sources */,
+				B3ABC85827E668E2001ECFE8 /* URLDataIntro.swift in Sources */,
 				B3ABC85027E65EF4001ECFE8 /* SequenceView.swift in Sources */,
 				B3ABC84E27E659A7001ECFE8 /* PassthroughSubjectView.swift in Sources */,
 				B374E81E2788EADA00422E9C /* HeaderView.swift in Sources */,
 				B374E7F32788E83A00422E9C /* Combine_ExamplesApp.swift in Sources */,
+				B3ABC85C27E670D9001ECFE8 /* URLSessionImage.swift in Sources */,
 				B3B6CB3F278A266C00D3E5C5 /* EmptyView.swift in Sources */,
 				B374E8272789F5C800422E9C /* CancellingMultiplePipelines.swift in Sources */,
 				B374E8252789EFFF00422E9C /* LongRunningProcess.swift in Sources */,
